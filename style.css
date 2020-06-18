@@ -1,10 +1,34 @@
 body{
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 }
-
-.header-1{
-    background-color: #252323;
+.menu-principal{
+    width: 100%;
     height: 60px;
-
+    background-color: #252323;
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    float: left;
+    padding: 16px;
+    width: 70%;
+}
+.social-media ul li{
+    margin-left: 14px;
+    display: inline-block;
+    list-style: none;
+}
+.social-media{
+    width: 20%;
+    float: right;
+}
+.header2{
+    background-color: white;
+    width: 100%;
+    border-bottom: 3px solid #efefef;
 }
